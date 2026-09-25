@@ -118,16 +118,16 @@ This project lets you launch a virtual rocket and watch exactly what happens to 
 ---
 Features
 
-🌍 7 planets/moons to launch from (Earth, Moon, Mars, Mercury, Venus, Jupiter, Saturn) — each with its own gravity value
-🚀 Real launch sites on Earth, grouped by country (Kennedy Space Center, Baikonur, Sriharikota, Kourou, Tanegashima, and more)
-🎯 Two calculation modes:
+- 7 planets/moons to launch from (Earth, Moon, Mars, Mercury, Venus, Jupiter, Saturn) — each with its own gravity value
+- Real launch sites on Earth, grouped by country (Kennedy Space Center, Baikonur, Sriharikota, Kourou, Tanegashima, and more)
+- Two calculation modes:
               Know your speed & angle → find out where you'll land
               Know your start & destination → find out the speed/angle needed to get there
-📍 Real-world landing lookup — finds the nearest real city to your rocket's landing point
-📊 Interactive trajectory graph with peak height and landing point labeled
-📘 Step-by-step explanation mode — walks through every formula used, with plain-English reasoning
-🧮 Formulas Used
----
+- Real-world landing lookup — finds the nearest real city to your rocket's landing point
+- Interactive trajectory graph with peak height and landing point labeled
+- Step-by-step explanation mode — walks through every formula used, with plain-English reasoning
+- Formulas Used
+
 Formula	What it calculates
 
 vx = v0·cos(angle)	Forward speed
