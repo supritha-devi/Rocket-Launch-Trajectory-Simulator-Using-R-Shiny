@@ -112,9 +112,11 @@ On Fri, 25 Sep, 2026, 10:47 am SUPRITHADEVI M 25AD102, <25ad102@drngpit.ac.in> w
 An interactive R Shiny application that simulates a rocket's flight path using real physics and math formulas — built as a combined Physics + Mathematics mini-project.
 
 📖 Description
+
 This project lets you launch a virtual rocket and watch exactly what happens to it. Pick a real-world launch site on Earth (or another planet/moon), set a speed and angle, and the simulator plots the rocket's entire journey — from liftoff to peak height to landing — on an interactive graph. It also works in reverse: choose a starting point and a destination, and the app calculates the exact speed or angle needed to reach it, using real-world map distances. Every result comes with an optional step-by-step explanation, breaking down the formulas (trigonometry, gravity, motion equations) in plain language, so the user doesn't just see the answer — they understand how it was calculated.
 
 ✨ Features
+
 🌍 7 planets/moons to launch from (Earth, Moon, Mars, Mercury, Venus, Jupiter, Saturn) — each with its own gravity value
 🚀 Real launch sites on Earth, grouped by country (Kennedy Space Center, Baikonur, Sriharikota, Kourou, Tanegashima, and more)
 🎯 Two calculation modes:
@@ -124,7 +126,9 @@ Know your start & destination → find out the speed/angle needed to get there
 📊 Interactive trajectory graph with peak height and landing point labeled
 📘 Step-by-step explanation mode — walks through every formula used, with plain-English reasoning
 🧮 Formulas Used
+
 Formula	What it calculates
+
 vx = v0·cos(angle)	Forward speed
 vy = v0·sin(angle)	Upward speed
 t_peak = vy/g	Time to reach the peak
@@ -132,10 +136,12 @@ total_time = 2·t_peak	Total flight time
 max_height = vy²/(2g)	Highest point reached
 range = vx·total_time	Total distance traveled
 range = v0²·sin(2·angle)/g	Used to solve for speed or angle in destination mode
+
 🛠️ Built With
 R and Shiny — application framework
 Base R graphics — trajectory plotting
 maps package — offline city database for real-world landing lookups
+
 📂 Project Structure
 RocketLaunchTrajectorySimulator/ ├── Rocket Launch Trajectory Simulator Using R.Rproj ├── global.R # Shared data: gravity values, launch sites, coordinates, formulas ├── ui.R # App layout and pages ├── server.R # App logic, calculations, and page navigation └── www/ └── styles.css # App styling
 
@@ -144,116 +150,11 @@ Open Rocket Launch Trajectory Simulator Using R.Rproj in RStudio
 Install required packages (one-time): install.packages(c("shiny", "maps"))
 Open ui.R, server.R, or global.R
 Click Run App
+
 👩‍💻 Author
 Suprithadevi M
 
 
 
 
-On Fri, Sep 25, 2026 at 10:44 AM Supritha <suprithdevi@gmail.com> wrote:
-# SUPRITHADEVI M
 
-### Aspiring Web Developer | Front-End Development | Accessible Web Design
-
-A modern, responsive, and accessibility-focused personal portfolio website designed to showcase my technical skills, projects, and professional interests.
-
----
-
-## Overview
-
-This portfolio represents my journey in web development and my interest in creating clean, responsive, accessible, and user-friendly digital experiences.
-
-The website has been developed using semantic HTML5 and modern CSS3 principles, with particular attention to accessibility, responsive design, usability, and visual consistency.
-
----
-
-## Key Highlights
-
-- Professional Royal Navy Blue visual identity
-- Semantic HTML5 structure
-- Responsive and mobile-friendly layouts
-- Accessibility-focused development
-- Keyboard-friendly navigation
-- Skip-to-content functionality
-- Accessible contact form
-- Clear heading hierarchy
-- SEO-friendly page structure
-- Consistent typography and spacing
-- Responsive project card layout
-- Visible keyboard focus indicators
-- Reduced-motion support
-
----
-
-## Website Structure
-
-The portfolio consists of four primary pages:
-
-| Page | Description |
-|------|-------------|
-| **Home** | Introduction, professional focus, and key skills |
-| **About** | Background, technical interests, skills, and career goals |
-| **Projects** | Selected web development projects and technologies |
-| **Contact** | Accessible contact form for professional communication |
-
----
-
-## Technologies
-
-- **HTML5** — Semantic structure and accessible markup
-- **CSS3** — Styling, responsive layouts, and visual design
-- **Responsive Web Design** — Adaptation across devices
-- **Web Accessibility** — Keyboard navigation and accessible interaction
-- **SEO Fundamentals** — Page titles and descriptive metadata
-
----
-
-## Accessibility
-
-Accessibility is an integral part of the website's development.
-
-The portfolio incorporates:
-
-- Semantic HTML elements
-- Descriptive navigation
-- Logical heading hierarchy
-- Skip navigation functionality
-- Keyboard-accessible controls
-- Visible focus states
-- Properly associated form labels
-- Required form fields
-- Responsive layouts
-- Reduced-motion considerations
-
-The objective is to provide a clear, consistent, and usable experience across different devices and interaction methods.
-
----
-
-## Responsive Design
-
-The website is designed to provide a consistent experience across:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile devices
-
-Responsive CSS techniques and media queries are used to adapt navigation, typography, project cards, forms, and page spacing to different screen sizes.
-
----
-
-## Project Structure
-
-```text
-portfolio/
-│
-├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── README.md
-│
-├── css/
-│   └── style.css
-│
-└── images/
